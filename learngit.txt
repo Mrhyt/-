@@ -1,2 +1,3 @@
 git add learngit.txt
 git commit -m "wrote a txt"
+change the txt:git diff
