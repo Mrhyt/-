@@ -1,0 +1,46 @@
+header{
+    width: 500px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+header #newGameBtn{
+    display: block;
+    width: 100px;
+    
+    text-decoration: none;
+    background-color: red;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+header #newGameBtn:hover{
+    background-color: salmon;
+}
+header p{
+    margin: auto;
+    font-size: 25px;
+}
+#grid-container{
+    width: 460px;
+    height: 460px;
+    margin: 10px auto;
+    padding: 20px;
+    position: relative;
+    background-color: rgba(22,27,255,0.9);}
+.grid-cell{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    position: absolute;
+    border-radius: 6px;
+}
+.number-cell{
+    width: 60px;
+    line-height: 100px;
+    font-size: 60px;
+    background-color: yellowgreen;
+    position: absolute;
+    border-radius: 6px; 
+    text-align: center;
+}
